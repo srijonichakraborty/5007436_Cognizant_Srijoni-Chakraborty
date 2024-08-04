@@ -1,0 +1,7 @@
+ALTER TABLE Customers ADD IsVIP NUMBER(1);
+BEGIN
+  UPDATE Customers
+  SET IsVIP = CASE WHEN balance > 10000 THEN 1 ELSE 0 END;
+  COMMIT;
+END;
+/
