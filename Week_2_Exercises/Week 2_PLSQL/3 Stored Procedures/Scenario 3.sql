@@ -39,8 +39,6 @@ BEGIN
   END;
 END;
 /
-
-
 --Steps before executing the procedure--
 --To ensure the TRANSACTIONID is unique, the sequence trans_id_seq is created, as there is an unique constraint
 -- on the transactionid column in the transactions table.
