@@ -42,8 +42,8 @@ END;
 
 
 --Steps before executing the procedure--
---To ensure the TRANSACTIONID is unique, the sequence trans_id_seq is created, 
---as there is a unique constraint on the transactionid column in the transactions table.
+--To ensure the TRANSACTIONID is unique, the sequence trans_id_seq is created, as there is an unique constraint
+-- on the transactionid column in the transactions table.
 --Using this below query first the max value of transactionid currently is found:
 --    SELECT MAX(TRANSACTIONID) AS max_trans_id FROM Transactions;
 --then the Sequence with the correct starting value(in our data, 3) is created by doing below query:
