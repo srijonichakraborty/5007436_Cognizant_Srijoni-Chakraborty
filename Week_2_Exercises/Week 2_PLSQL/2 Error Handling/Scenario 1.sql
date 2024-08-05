@@ -54,7 +54,9 @@ EXCEPTION
 END;
 /
 
---To show the error message, before executing the procedure, first this error_logs table has to be created. 
+--Steps before executing the procedure--
+
+--To show the error message, first this error_logs table has to be created. 
 --The procedure should raise an insufficient_funds exception. An error message should be inserted into this table.
 
 --CREATE TABLE error_logs (
