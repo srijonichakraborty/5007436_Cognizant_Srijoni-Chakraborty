@@ -34,4 +34,5 @@ Each folder contains the relevant code files, documentation, and any additional 
 If facing any problems or occuring any issues, please feel free to reach out!
 
 Email: [chakrabortysrijoni@gmail.com](mailto:chakrabortysrijoni@gmail.com)
+
 LinkedIn: [Srijoni Chakraborty](https://www.linkedin.com/in/srijonichakraborty/)
